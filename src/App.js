@@ -4,7 +4,9 @@ class App extends React.Component {
     render() {
         return (
             <div>
-                // add components here
+                <Titles/>
+                <Form/>
+                <Weather/>
             </div>
         )
     }
